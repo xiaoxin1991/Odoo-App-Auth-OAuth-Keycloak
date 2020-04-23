@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "auth_oauth_keycloack",
+    'name': "Auth OAuth Keycloak",
 
     'summary': """
         Enables Keycloack integration for the OAuth2 Authentication module.""",
