@@ -13,7 +13,7 @@
     'website': "https://www.mint-system.ch",
 
     'category': 'Technical Settings',
-    'version': '0.1',
+    'version': '1.0.0',
 
     'depends': [
         'base',
