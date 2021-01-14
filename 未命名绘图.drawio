@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T06:19:47.594Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4315.4 Safari/537.36" version="14.2.2" etag="Bdba0Ul0rsdC6zGe1v_-" type="github"><diagram id="AxJAetzRaF3SBLgN9cCI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-14T07:31:52.320Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4315.4 Safari/537.36" etag="-lxDppqyHvfR-6BDh3C3" version="14.2.2" type="github">
+  <diagram id="AxJAetzRaF3SBLgN9cCI" name="第 1 页">
+    <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UXMH_qFuzgybLkVpdR78-13" value="&lt;font color=&quot;#ffffff&quot;&gt;用户&lt;/font&gt;" style="text;strokeColor=#0066CC;fillColor=#009999;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="110" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UXMH_qFuzgybLkVpdR78-14" value="&lt;font color=&quot;#ffffff&quot;&gt;License发布平台&lt;/font&gt;" style="text;strokeColor=#0066CC;fillColor=#009999;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="450" y="100" width="196" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
