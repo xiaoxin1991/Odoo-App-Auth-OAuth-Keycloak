@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-06T01:49:14.037Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="Z4sW5vSTY6xGlhCs8fTO" version="14.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-06T01:55:57.796Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="y1_3sdkwQclrnpi8DnyB" version="14.2.2" type="github">
   <diagram id="mfywH_6YlM2g_m3Mk5bc" name="第 1 页">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,8 +7,8 @@
         <mxCell id="jzyQe0GdsOW-vjrEkmvA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jzyQe0GdsOW-vjrEkmvA-1" target="jzyQe0GdsOW-vjrEkmvA-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jzyQe0GdsOW-vjrEkmvA-13" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jzyQe0GdsOW-vjrEkmvA-8">
-          <mxGeometry x="-0.388" y="1" relative="1" as="geometry">
+        <mxCell id="jzyQe0GdsOW-vjrEkmvA-24" value="包含&amp;nbsp; 企业ID、程序版本" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jzyQe0GdsOW-vjrEkmvA-8">
+          <mxGeometry x="-0.2635" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -19,10 +19,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jzyQe0GdsOW-vjrEkmvA-2" value="企业注册注册信息" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="337" y="340" width="76.5" height="93" as="geometry" />
+          <mxGeometry x="610" y="340" width="76.5" height="93" as="geometry" />
         </mxCell>
         <mxCell id="jzyQe0GdsOW-vjrEkmvA-3" value="应用程序&lt;br&gt;ERP、CRM、MERP" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.workspaces;fillColor=#D16A28;gradientColor=#F58435;gradientDirection=north;" vertex="1" parent="1">
-          <mxGeometry x="550" y="61.75" width="82.5" height="94.5" as="geometry" />
+          <mxGeometry x="115.5" y="600" width="82.5" height="94.5" as="geometry" />
         </mxCell>
         <mxCell id="jzyQe0GdsOW-vjrEkmvA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jzyQe0GdsOW-vjrEkmvA-4" target="jzyQe0GdsOW-vjrEkmvA-2">
           <mxGeometry relative="1" as="geometry" />
@@ -30,10 +30,10 @@
         <mxCell id="jzyQe0GdsOW-vjrEkmvA-4" value="注册审批" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.swf;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="121.5" y="340" width="76.5" height="93" as="geometry" />
         </mxCell>
-        <mxCell id="jzyQe0GdsOW-vjrEkmvA-7" value="发放临时证书&lt;br&gt;证书每隔多久失效&lt;br&gt;随机高强度密码" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.step_functions;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="573" y="340" width="76.5" height="93" as="geometry" />
+        <mxCell id="jzyQe0GdsOW-vjrEkmvA-7" value="发放临时证书&lt;br&gt;证书每隔20天失效&lt;br&gt;随机高强度密码" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.step_functions;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="68" width="76.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jzyQe0GdsOW-vjrEkmvA-16" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="jzyQe0GdsOW-vjrEkmvA-7" target="jzyQe0GdsOW-vjrEkmvA-1">
+        <mxCell id="jzyQe0GdsOW-vjrEkmvA-16" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.21;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jzyQe0GdsOW-vjrEkmvA-7" target="jzyQe0GdsOW-vjrEkmvA-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="330" as="sourcePoint" />
             <mxPoint x="440" y="280" as="targetPoint" />
@@ -48,6 +48,39 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="330" as="sourcePoint" />
             <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzyQe0GdsOW-vjrEkmvA-21" value="" style="endArrow=classic;html=1;strokeColor=#007FFF;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.79;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jzyQe0GdsOW-vjrEkmvA-1" target="jzyQe0GdsOW-vjrEkmvA-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="570" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzyQe0GdsOW-vjrEkmvA-22" value="申请临时证书" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jzyQe0GdsOW-vjrEkmvA-21">
+          <mxGeometry x="0.477" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzyQe0GdsOW-vjrEkmvA-25" value="包含&lt;br&gt;原始临时证书&lt;br&gt;机器码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jzyQe0GdsOW-vjrEkmvA-21">
+          <mxGeometry x="0.0631" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzyQe0GdsOW-vjrEkmvA-26" value="" style="endArrow=classic;html=1;strokeColor=#007FFF;" edge="1" parent="1" source="jzyQe0GdsOW-vjrEkmvA-7" target="jzyQe0GdsOW-vjrEkmvA-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzyQe0GdsOW-vjrEkmvA-27" value="" style="endArrow=classic;html=1;strokeColor=#007FFF;" edge="1" parent="1" source="jzyQe0GdsOW-vjrEkmvA-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="600" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzyQe0GdsOW-vjrEkmvA-28" value="申请临时证书" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jzyQe0GdsOW-vjrEkmvA-27">
+          <mxGeometry x="0.121" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
