@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-06T01:56:35.817Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="WF26s5xTNgkk10dw6yPi" version="14.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-06T01:57:39.662Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="lDbtPt16Z0KrGcEIBcuQ" version="14.2.2" type="github">
   <diagram id="mfywH_6YlM2g_m3Mk5bc" name="第 1 页">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,6 +26,11 @@
         </mxCell>
         <mxCell id="jzyQe0GdsOW-vjrEkmvA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jzyQe0GdsOW-vjrEkmvA-4" target="jzyQe0GdsOW-vjrEkmvA-2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzyQe0GdsOW-vjrEkmvA-30" value="写入企业信息&lt;br&gt;应用信息&lt;br&gt;及干系人" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jzyQe0GdsOW-vjrEkmvA-9">
+          <mxGeometry x="0.5728" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="jzyQe0GdsOW-vjrEkmvA-4" value="注册审批" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.swf;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="121.5" y="340" width="76.5" height="93" as="geometry" />
