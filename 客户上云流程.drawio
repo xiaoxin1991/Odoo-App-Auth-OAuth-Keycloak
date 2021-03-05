@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T01:29:09.865Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="VHE1E0LIjARjW9y0yyUM" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T01:34:40.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="_i0b9VxcpR9npMIPVjs9" version="14.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,10 +92,18 @@
         <mxCell id="DnYA5mUgrLqKh6XGCzV2-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DnYA5mUgrLqKh6XGCzV2-23" target="DnYA5mUgrLqKh6XGCzV2-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="O3uo5_pyUlfJneFG8pDG-7" value="创建机器账户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DnYA5mUgrLqKh6XGCzV2-32">
+          <mxGeometry x="-0.3314" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="DnYA5mUgrLqKh6XGCzV2-23" value="开发6部-正式开机时间" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="310" y="520" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DnYA5mUgrLqKh6XGCzV2-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DnYA5mUgrLqKh6XGCzV2-28" target="DnYA5mUgrLqKh6XGCzV2-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O3uo5_pyUlfJneFG8pDG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DnYA5mUgrLqKh6XGCzV2-28" target="O3uo5_pyUlfJneFG8pDG-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DnYA5mUgrLqKh6XGCzV2-28" value="售后/工程正式迁移客户程序/数据库" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -110,8 +118,17 @@
         <mxCell id="O3uo5_pyUlfJneFG8pDG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="O3uo5_pyUlfJneFG8pDG-0" target="DnYA5mUgrLqKh6XGCzV2-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="O3uo5_pyUlfJneFG8pDG-0" value="联系客户&lt;br&gt;确认客户干系人&lt;br&gt;客户确认vpn/使用计划&lt;br&gt;创建西联/客户干系人沟通群主" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="45" y="400" width="130" height="80" as="geometry" />
+        <mxCell id="O3uo5_pyUlfJneFG8pDG-0" value="联系客户&lt;br&gt;确认客户干系人&lt;br&gt;客户确认vpn/使用计划&lt;br&gt;创建西联/客户干系人沟通群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="45" y="380" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O3uo5_pyUlfJneFG8pDG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="O3uo5_pyUlfJneFG8pDG-2" target="O3uo5_pyUlfJneFG8pDG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O3uo5_pyUlfJneFG8pDG-2" value="开发6部-运维组" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O3uo5_pyUlfJneFG8pDG-5" value="进入日常运维&lt;br&gt;关注/机器使用情况&lt;br&gt;预留购买、服务启动等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="790" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
