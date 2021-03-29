@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T07:30:16.077Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="hku0TPvkrn2Eb3SNcrTu" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-29T07:39:42.912Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="LCPlDvySnTWhWL6T_wvC" version="14.5.1" type="github">
   <diagram id="cYfa8lgzgTLfVm2sliMU" name="第 1 页">
     <mxGraphModel dx="1022" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -140,6 +140,18 @@
             <mxPoint x="490" y="490" as="sourcePoint" />
             <mxPoint x="540" y="440" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="CDTEr7zxmMwXe-56cR3S-82" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;" vertex="1" parent="1">
+          <mxGeometry x="102.4" y="650" width="380" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="CDTEr7zxmMwXe-56cR3S-83" value="定价系统" style="swimlane;html=1;startSize=20;" vertex="1" parent="CDTEr7zxmMwXe-56cR3S-82">
+          <mxGeometry x="20" width="120" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="CDTEr7zxmMwXe-56cR3S-84" value="Lane 2" style="swimlane;html=1;startSize=20;" vertex="1" parent="CDTEr7zxmMwXe-56cR3S-82">
+          <mxGeometry x="140" width="120" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="CDTEr7zxmMwXe-56cR3S-85" value="Lane 3" style="swimlane;html=1;startSize=20;" vertex="1" parent="CDTEr7zxmMwXe-56cR3S-82">
+          <mxGeometry x="260" width="120" height="480" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
