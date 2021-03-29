@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T07:59:42.587Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="OIjJsEcnisBxlNmSv_Wu" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-29T08:02:51.669Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="JyqE6h6755v3XiYewELj" version="14.5.1" type="github">
   <diagram id="cYfa8lgzgTLfVm2sliMU" name="第 1 页">
     <mxGraphModel dx="1136" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,14 +50,18 @@
         <mxCell id="CDTEr7zxmMwXe-56cR3S-20" value="&lt;span style=&quot;font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;&amp;nbsp;Api restful&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="394" y="190" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="CDTEr7zxmMwXe-56cR3S-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CDTEr7zxmMwXe-56cR3S-21" target="CDTEr7zxmMwXe-56cR3S-22">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="CDTEr7zxmMwXe-56cR3S-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CDTEr7zxmMwXe-56cR3S-21" target="CDTEr7zxmMwXe-56cR3S-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="188" y="472" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="CDTEr7zxmMwXe-56cR3S-21" value="lambda&lt;br&gt;计算商品相似度&lt;br&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="309" y="440" width="60" height="63" as="geometry" />
         </mxCell>
         <mxCell id="CDTEr7zxmMwXe-56cR3S-22" value="api　gateway&lt;br&gt;输出商品相似度" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="176.5" y="432.5" width="76.5" height="78" as="geometry" />
+          <mxGeometry x="150" y="300" width="76.5" height="78" as="geometry" />
         </mxCell>
         <mxCell id="CDTEr7zxmMwXe-56cR3S-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CDTEr7zxmMwXe-56cR3S-30" target="CDTEr7zxmMwXe-56cR3S-21">
           <mxGeometry relative="1" as="geometry" />
