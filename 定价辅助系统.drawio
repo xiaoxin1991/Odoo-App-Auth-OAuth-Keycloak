@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T01:55:44.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="sinb-hE3i1KpsnYLZnuC" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-29T02:03:01.416Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="ldmE19XaMVw4TZZwm8mT" version="14.5.1" type="github">
   <diagram id="cYfa8lgzgTLfVm2sliMU" name="第 1 页">
     <mxGraphModel dx="1202" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -111,7 +111,7 @@
         <mxCell id="CDTEr7zxmMwXe-56cR3S-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CDTEr7zxmMwXe-56cR3S-5" target="CDTEr7zxmMwXe-56cR3S-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CDTEr7zxmMwXe-56cR3S-5" value="定价辅助系统" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="CDTEr7zxmMwXe-56cR3S-5" value="定价辅助系统&lt;br&gt;RDS" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="280" y="841.5" width="72" height="81" as="geometry" />
         </mxCell>
         <mxCell id="CDTEr7zxmMwXe-56cR3S-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CDTEr7zxmMwXe-56cR3S-6" target="CDTEr7zxmMwXe-56cR3S-7">
@@ -121,6 +121,22 @@
               <mxPoint x="490" y="1000" />
               <mxPoint x="490" y="1000" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CDTEr7zxmMwXe-56cR3S-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CDTEr7zxmMwXe-56cR3S-6" target="CDTEr7zxmMwXe-56cR3S-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CDTEr7zxmMwXe-56cR3S-37" value="认证商品URL是否有效&lt;br&gt;获取历史价格" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CDTEr7zxmMwXe-56cR3S-36">
+          <mxGeometry x="-0.2588" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CDTEr7zxmMwXe-56cR3S-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CDTEr7zxmMwXe-56cR3S-6" target="CDTEr7zxmMwXe-56cR3S-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CDTEr7zxmMwXe-56cR3S-39" value="获取商品相似度" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CDTEr7zxmMwXe-56cR3S-38">
+          <mxGeometry x="-0.1133" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CDTEr7zxmMwXe-56cR3S-6" value="Web API" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="1">
@@ -151,13 +167,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CDTEr7zxmMwXe-56cR3S-21" value="lambda&lt;br&gt;计算商品相似度&lt;br&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="53" y="1167.5" width="60" height="63" as="geometry" />
-        </mxCell>
-        <mxCell id="CDTEr7zxmMwXe-56cR3S-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CDTEr7zxmMwXe-56cR3S-22" target="CDTEr7zxmMwXe-56cR3S-6">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="250" y="1176.5" width="60" height="63" as="geometry" />
         </mxCell>
         <mxCell id="CDTEr7zxmMwXe-56cR3S-22" value="api　gateway&lt;br&gt;输出商品相似度" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="277" y="1160" width="76.5" height="78" as="geometry" />
+          <mxGeometry x="463" y="1169" width="76.5" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CDTEr7zxmMwXe-56cR3S-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CDTEr7zxmMwXe-56cR3S-30" target="CDTEr7zxmMwXe-56cR3S-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CDTEr7zxmMwXe-56cR3S-30" value="第三方数据源" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1169" width="78" height="78" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
